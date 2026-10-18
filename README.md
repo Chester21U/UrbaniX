@@ -6,7 +6,7 @@
 ![Estado](https://img.shields.io/badge/estado-en%20desarrollo-orange)
 ![Licencia](https://img.shields.io/badge/licencia-MIT-blue)
 
-Plataforma web para reportar, priorizar y dar seguimiento a los daños en la infraestructura pública urbana de San Miguel, El Salvador: baches, fugas de agua, luminarias y tendido eléctrico, basura y alcantarillas.
+Plataforma web para reportar, priorizar y dar seguimiento a los daños en la infraestructura pública urbana de una ciudad X, El Salvador: baches, fugas de agua, luminarias y tendido eléctrico, basura y alcantarillas.
 
 > Pasar de una alcaldía que reacciona a reclamos dispersos a una que decide con datos, y de un ciudadano que denuncia sin respuesta a uno que puede ver qué pasó con su reporte.
 
