@@ -1,0 +1,43 @@
+name: Requisito o tarea
+description: Funcionalidad, requisito funcional (RF) o tarea técnica
+title: "RF-XX · "
+labels: ["rf"]
+body:
+  - type: input
+    id: codigo
+    attributes:
+      label: Código
+      placeholder: RF-02
+    validations:
+      required: true
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción
+      description: Qué debe hacer el sistema
+    validations:
+      required: true
+  - type: dropdown
+    id: rol
+    attributes:
+      label: Rol
+      options:
+        - Ciudadano
+        - Operador
+        - Cuadrilla
+        - Administrador
+        - Visitante
+        - Sistema
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Criterios de aceptación
+      value: |
+        - [ ]
+        - [ ] Validaciones y manejo de errores
+        - [ ] Pruebas con pytest
+        - [ ] Documentación actualizada
+    validations:
+      required: true
