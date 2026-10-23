@@ -1,0 +1,16 @@
+Django==5.2.18
+djangorestframework==3.16.1
+djangorestframework-gis==1.2.0
+drf-spectacular==0.28.0
+django-environ==0.12.0
+psycopg[binary]==3.2.10
+celery[redis]==5.5.3
+gunicorn==23.0.0
+Pillow==11.3.0
+pandas==2.3.3
+Faker==37.11.0
+
+pytest==8.4.2
+pytest-django==4.11.1
+coverage==7.10.7
+ruff==0.14.0
