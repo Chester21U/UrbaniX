@@ -27,7 +27,17 @@ THIRD_PARTY_APPS = [
     "drf_spectacular",
 ]
 
-LOCAL_APPS = []
+LOCAL_APPS = [
+    "apps.accounts",
+    "apps.geo",
+    "apps.reports",
+    "apps.triage",
+    "apps.operations",
+    "apps.notifications",
+    "apps.bot",
+    "apps.analytics",
+    "apps.public",
+]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
